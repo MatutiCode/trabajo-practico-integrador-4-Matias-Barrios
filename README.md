@@ -68,7 +68,7 @@ id = 456;
 
 - ¿Cómo se indican los tipos de los parámetros?
 
-se indica con strict
+En TypeScript, los tipos de los parámetros de una función se indican escribiendo dos puntos (:) seguidos del tipo de dato justo después del nombre del parámetro.
 
 - ¿Cómo se indica el tipo de retorno?
 
@@ -124,3 +124,31 @@ interface se usa cuando describimos la estructura de objetos y clases.
 type: se usa cuando necesitamos describir tipos primitivos, uniones y intersecciones.
 
 fuentes: https://dev.to/joodi/when-to-use-type-vs-interface-in-typescript-2dld
+
+# Enums y tipos literales
+
+- ¿Qué es un enum?
+
+Es una característica de TypeScript que permite definir un conjunto de valores constantes bajo un mismo nombre.
+
+fuentes: https://www.luisllamas.es/typescript-enums/
+
+- ¿Qué es un tipo literal?
+
+Los tipos literales son tipos que permiten definir variables con valores específicos y prefijados en lugar de tipos amplios como string o number.
+
+fuentes: https://www.luisllamas.es/typescript-literales/
+
+- ¿En qué se parecen y en qué se diferencian?
+
+Ambos restringen un valor a un conjunto fijo de opciones y TypeScript avisa si se usa un valor que no corresponde.
+La diferencia es que el enum genera código javascript u no funciona con "node", mientras que el tipo literal desaparece al compilar y no genera nada.
+
+fuentes: https://www.luisllamas.es/typescript-literales/
+
+- ¿En qué situaciones se puede usar cada uno?
+
+El enum se usa siempre que se necesita representar un conjunto fijo de constantes.
+El tipo literal se usa cuando solo se quiere restringir los valores al escribir código, sin generar nada extra.
+
+fuentes: https://blog-logrocket-com.translate.goog/typescript-enums-vs-types/?_x_tr_sl=en&_x_tr_tl=es&_x_tr_hl=es&_x_tr_pto=tc

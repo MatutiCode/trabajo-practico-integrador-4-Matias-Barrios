@@ -1,0 +1,27 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "description": "- ¿Qué es TypeScript y quién lo desarrolla?\r TypeScript es un superconjunto de JavaScript desarrollado por Microsoft que agrega tipado estático opcional. Todo código JavaScript válido es también TypeScript válido. Antes de ejecutarse, el código TypeScript se convierte en JavaScript puro.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsx watch app.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MatutiCode/typeScript-Matias-Barrios.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/MatutiCode/typeScript-Matias-Barrios/issues"
+  },
+  "homepage": "https://github.com/MatutiCode/typeScript-Matias-Barrios#readme",
+  "devDependencies": {
+    "@types/node": "^24.19.2",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
