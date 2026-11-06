@@ -82,20 +82,12 @@ fuentes: Retorno de funciones en TypeScript. https://www.luisllamas.es/retorno-d
 - ¿Qué es un parámetro opcional?
 
 En los parametros opcionales se utiliza el signo de interrogación ( ? )
-´function saludar(nombre: string, edad?: number): void {
-    if (edad) {
-        console.log(`Hola ${nombre}, tienes ${edad} años.`);
-    } else {
-        console.log(`Hola ${nombre}.`);
-    }
-}´
+
 
 - ¿Qué es un parámetro por defecto?
 
 En los parametros por defecto se utiliza el operador de asignación ( = )
-´function saludar(nombre: string, edad: number = 18): void {
-    console.log(`Hola ${nombre}, tienes ${edad} años.`);
-}´
+
 
 fuentes: Parámetros de funciones en TypeScript. https://www.luisllamas.es/typescript-parametros-funciones/
 
