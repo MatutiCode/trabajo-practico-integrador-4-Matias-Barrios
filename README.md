@@ -98,3 +98,29 @@ En los parametros por defecto se utiliza el operador de asignación ( = )
 }´
 
 fuentes: Parámetros de funciones en TypeScript. https://www.luisllamas.es/typescript-parametros-funciones/
+
+# Interfaces y type
+
+- ¿Qué es una interfaz y para qué sirve?
+
+Las interfaces son útiles para asegurar que los objetos cumplan con ciertos requisitos y para proporcionar una forma clara de comunicación entre diferentes partes del código.
+Sirve para difinir contratos dentro del código, asegurando que los objetos tengan una estructura específica.
+
+fuentes: https://medium.com/@ingenieroandrade/typescript-interfaz-8ee845a08950
+
+- ¿Qué es un type?
+
+Un type es un nombre o alias que se le da a cualquier tipo existente. Tambien permite combinar tipos con ' | '(union) y ' & '(interseccion).
+
+fuentes: https://www.webtutoriales.com/articulos/2024/01/11/tipos-typescript/
+
+- ¿Cómo se declara una propiedad opcional?
+
+Para declarar una propiedad opcional se debe colocar el signo de interrogación (?) despues del nombre de la propiedad.
+
+- ¿Cuándo conviene usar cada uno?
+
+interface se usa cuando describimos la estructura de objetos y clases.
+type: se usa cuando necesitamos describir tipos primitivos, uniones y intersecciones.
+
+fuentes: https://dev.to/joodi/when-to-use-type-vs-interface-in-typescript-2dld
